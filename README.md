@@ -1,22 +1,52 @@
-​📋 Simple CLI To-Do List
-​A lightweight and persistent command-line to-do list application written in Python, featuring a clean, color-coded interface.
-​✨ Features
+📝 Terminal To-Do List App (Python)
 
-​Add, Remove, and Edit tasks.
-​View all tasks with a color-coded status.
-​Mark/Unmark tasks as complete (e.g., [✓] or [✗]).
-​Persistent Storage 💾 (saves tasks to tasks.txt).
-​Color-Coded UI 🎨 for readability.
+A simple, lightweight, and color-coded command-line to-do list manager built in Python. Tasks are saved locally in tasks.txt, making this tool perfect for quick personal task tracking without external dependencies.
 
-​🐍 Requirements
+🚀 Features
 
-​Python 3.6+
-​No external libraries needed.
+View all tasks with colored status indicators
 
-​🚀 Usage
-​To run the application, simply execute the script from your terminal:
-bash
+Add new tasks
+
+Edit existing tasks
+
+Remove tasks
+
+Mark or unmark tasks as completed
+
+Automatic saving to tasks.txt
+
+
+📦 Requirements
+
+Python 3.x
+
+No external libraries needed
+
+
+▶️ How to Run
+
 python todo.py
-(Assuming you have saved the code as todo.py)
-​⚖️ License
-​This project is licensed under the MIT License.
+
+(Replace todo.py with your filename.)
+
+📁 Task Storage
+
+Tasks are stored in tasks.txt using the format:
+
+task description|0   # incomplete  
+task description|1   # completed
+
+🧩 Notes
+
+Runs entirely in the terminal
+
+Uses ANSI escape codes for colored output
+
+Perfect for beginners learning file handling and CLI applications
+
+
+
+---
+
+If you'd like, I can also format this as a GitHub-ready Markdown file or expand it with screenshots, badges, or usage examples.
