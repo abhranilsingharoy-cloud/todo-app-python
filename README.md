@@ -49,4 +49,4 @@ Perfect for beginners learning file handling and CLI applications
 
 ---
 
-If you'd like, I can also format this as a GitHub-ready Markdown file or expand it with screenshots, badges, or usage examples.
+
