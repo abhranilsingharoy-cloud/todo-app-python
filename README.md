@@ -28,8 +28,6 @@ No external libraries needed
 
 python todo.py
 
-(Replace todo.py with your filename.)
-
 # 📁 Task Storage
 
 Tasks are stored in tasks.txt using the format:
