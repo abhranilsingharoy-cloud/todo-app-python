@@ -10,6 +10,10 @@ CYAN = "\033[96m"
 RESET = "\033[0m"
 BOLD = "\033[1m"
 
+def clear_screen():
+    """Clears the terminal screen for a cleaner UI."""
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def load_tasks():
     """Loads tasks from tasks.txt. Format: task|completed"""
     if not os.path.exists(TASKS_FILE):
@@ -127,6 +131,7 @@ def main():
     tasks = load_tasks()
     
     while True:
+        clear_screen()
         show_menu()
         choice = input("Enter your choice (1-6): ").strip()
 
@@ -145,6 +150,8 @@ def main():
             break
         else:
             print(RED + "Invalid choice. Please choose 1-6." + RESET)
+            
+        input(CYAN + "\nPress Enter to return to the menu..." + RESET)
 
 if __name__ == "__main__":
     main()
